@@ -1,0 +1,40 @@
+﻿{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Please to meet you Erik!"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": "Please to meet you Erik!"
+      }
+    },
+    "card": {
+      "title": "Greetings!",
+      "type": "Standard",
+      "image": {
+        "SmallImageUrl": "small.jpg",
+        "LargeImageUrl": "large.jpg"
+      }
+    },
+    "directives": [
+      {
+        "type": "AudioPlayer.Play",
+        "playBehavior": "REPLACE_ALL",
+        "audioItem": {
+          "stream": {
+            "token": "string",
+            "url": "string",
+            "offsetInMilliseconds": 0
+          }
+        }
+      }
+    ],
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "name": "Erik"
+  }
+}

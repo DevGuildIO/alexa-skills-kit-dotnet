@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DevGuildIO.Alexa.Speech", "src\DevGuildIO.Alexa.Speech\DevGuildIO.Alexa.Speech.xproj", "{079B9EF2-D00F-4E37-BCCB-3467D1C7B718}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EA9F8C25-24C1-4A47-8436-01F531A6994C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D05EB5A5-3889-4C10-AFCA-BD83FA01B08D}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DevGuildIO.Alexa.Speech.Tests", "tests\DevGuildIO.Alexa.Speech.Tests\DevGuildIO.Alexa.Speech.Tests.xproj", "{AAC56840-C0AB-4EC7-9053-71945080167B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{079B9EF2-D00F-4E37-BCCB-3467D1C7B718}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{079B9EF2-D00F-4E37-BCCB-3467D1C7B718}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{079B9EF2-D00F-4E37-BCCB-3467D1C7B718}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{079B9EF2-D00F-4E37-BCCB-3467D1C7B718}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC56840-C0AB-4EC7-9053-71945080167B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC56840-C0AB-4EC7-9053-71945080167B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC56840-C0AB-4EC7-9053-71945080167B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC56840-C0AB-4EC7-9053-71945080167B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{079B9EF2-D00F-4E37-BCCB-3467D1C7B718} = {EA9F8C25-24C1-4A47-8436-01F531A6994C}
+		{AAC56840-C0AB-4EC7-9053-71945080167B} = {D05EB5A5-3889-4C10-AFCA-BD83FA01B08D}
+	EndGlobalSection
+EndGlobal

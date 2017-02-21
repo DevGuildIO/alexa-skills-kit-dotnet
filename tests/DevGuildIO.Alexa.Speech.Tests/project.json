@@ -1,0 +1,28 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "DevGuildIO.Alexa.Speech": "1.0.0-*",
+    "NETStandard.Library": "1.6.0",
+    "NUnit": "3.6.0",
+    "dotnet-test-nunit": "3.4.0-beta-3"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "portable-net45+win8",
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.0.0-*",
+          "type": "platform"
+        }
+      }
+    }
+  },
+
+  "testRunner": "nunit",
+
+  "buildOptions": {
+    "copyToOutput": { "include": [ "Assets/**/*.json" ] }
+  }
+}
