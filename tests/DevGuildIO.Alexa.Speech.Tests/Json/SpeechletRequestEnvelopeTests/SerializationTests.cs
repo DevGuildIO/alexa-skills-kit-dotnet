@@ -1,11 +1,11 @@
 ﻿using System;
 using System.IO;
-using Amazon.Speech.Json;
-using Amazon.Speech.Speechlet;
+using DevGuildIO.Alexa.Speech.Json;
+using DevGuildIO.Alexa.Speech.Speechlet;
 using Newtonsoft.Json;
 using NUnit.Framework;
 
-namespace Amazon.Speech.Tests.Json.SpeechletRequestEnvelopeTests
+namespace DevGuildIO.Alexa.Speech.Tests.Json.SpeechletRequestEnvelopeTests
 {
     [TestFixture]
     public class SerializationTests

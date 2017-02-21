@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Amazon.Speech.Serialization
+namespace DevGuildIO.Alexa.Speech.Serialization
 {
     public static class JsonReaderHelper
     {

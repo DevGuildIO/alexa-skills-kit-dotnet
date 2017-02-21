@@ -1,5 +1,5 @@
 
-namespace Amazon.Speech.Speechlet.AudioPlayerInterface
+namespace DevGuildIO.Alexa.Speech.Speechlet.AudioPlayerInterface
 {
     /// <summary>
     /// https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/custom-audioplayer-interface-reference#playbackfailed-request

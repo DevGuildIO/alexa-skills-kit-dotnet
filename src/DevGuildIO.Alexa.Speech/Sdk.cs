@@ -1,5 +1,5 @@
 ﻿
-namespace Amazon.Speech
+namespace DevGuildIO.Alexa.Speech
 {
     public class Sdk
     {

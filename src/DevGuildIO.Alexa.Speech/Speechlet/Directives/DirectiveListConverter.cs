@@ -3,11 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Runtime.Serialization;
-using Amazon.Speech.Serialization;
+using DevGuildIO.Alexa.Speech.Serialization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Amazon.Speech.Speechlet.Directives
+namespace DevGuildIO.Alexa.Speech.Speechlet.Directives
 {
     public class DirectiveListConverter : JsonConverter
     {

@@ -1,6 +1,6 @@
-﻿using Amazon.Speech.Slu;
+﻿using DevGuildIO.Alexa.Speech.Slu;
 
-namespace Amazon.Speech.Speechlet
+namespace DevGuildIO.Alexa.Speech.Speechlet
 {
     public class IntentRequest : SpeechletRequest
     {

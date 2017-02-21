@@ -1,5 +1,5 @@
 ﻿
-namespace Amazon.Speech.Slu
+namespace DevGuildIO.Alexa.Speech.Slu
 {
     public class Slot
     {

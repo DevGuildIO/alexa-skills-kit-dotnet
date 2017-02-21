@@ -1,5 +1,5 @@
 ﻿
-namespace Amazon.Speech.Speechlet.Directives
+namespace DevGuildIO.Alexa.Speech.Speechlet.Directives
 {
     /// <summary>
     /// https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/custom-audioplayer-interface-reference#stop-directive

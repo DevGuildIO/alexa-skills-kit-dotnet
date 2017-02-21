@@ -1,5 +1,5 @@
 ﻿
-namespace Amazon.Speech.Speechlet.PlaybackControllerInterface
+namespace DevGuildIO.Alexa.Speech.Speechlet.PlaybackControllerInterface
 {
     /// <summary>
     /// Sent when the user uses a “previous” button with the intent to go back to the previous audio item.

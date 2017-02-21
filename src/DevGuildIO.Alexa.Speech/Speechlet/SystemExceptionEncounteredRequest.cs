@@ -1,6 +1,6 @@
-﻿using Amazon.Speech.Speechlet.AudioPlayerInterface;
+﻿using DevGuildIO.Alexa.Speech.Speechlet.AudioPlayerInterface;
 
-namespace Amazon.Speech.Speechlet
+namespace DevGuildIO.Alexa.Speech.Speechlet
 {
     public class SystemExceptionEncounteredRequest : SpeechletRequest
     {

@@ -3,7 +3,7 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.Serialization;
 
-namespace Amazon.Speech.Serialization
+namespace DevGuildIO.Alexa.Speech.Serialization
 {
     public static class EnumSerializer
     {

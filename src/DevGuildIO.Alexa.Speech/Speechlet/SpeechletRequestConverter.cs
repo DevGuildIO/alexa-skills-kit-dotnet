@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Reflection;
 using System.Runtime.Serialization;
-using Amazon.Speech.Serialization;
-using Amazon.Speech.Speechlet.AudioPlayerInterface;
-using Amazon.Speech.Speechlet.PlaybackControllerInterface;
+using DevGuildIO.Alexa.Speech.Serialization;
+using DevGuildIO.Alexa.Speech.Speechlet.AudioPlayerInterface;
+using DevGuildIO.Alexa.Speech.Speechlet.PlaybackControllerInterface;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Amazon.Speech.Speechlet
+namespace DevGuildIO.Alexa.Speech.Speechlet
 {
     public class SpeechletRequestConverter : JsonConverter
     {

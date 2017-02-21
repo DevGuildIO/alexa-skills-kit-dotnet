@@ -1,5 +1,5 @@
 ﻿
-namespace Amazon.Speech.UI
+namespace DevGuildIO.Alexa.Speech.UI
 {
     public class SimpleCard : Card
     {

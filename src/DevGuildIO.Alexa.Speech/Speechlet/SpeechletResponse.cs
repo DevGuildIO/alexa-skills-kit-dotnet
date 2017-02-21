@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Amazon.Speech.Speechlet.Directives;
-using Amazon.Speech.UI;
+using DevGuildIO.Alexa.Speech.Speechlet.Directives;
+using DevGuildIO.Alexa.Speech.UI;
 using Newtonsoft.Json;
 
-namespace Amazon.Speech.Speechlet
+namespace DevGuildIO.Alexa.Speech.Speechlet
 {
     /// <summary>
     /// https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference#response-format

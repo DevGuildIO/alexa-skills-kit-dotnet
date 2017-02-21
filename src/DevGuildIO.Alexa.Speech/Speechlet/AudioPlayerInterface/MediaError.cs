@@ -2,7 +2,7 @@ using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Amazon.Speech.Speechlet.AudioPlayerInterface
+namespace DevGuildIO.Alexa.Speech.Speechlet.AudioPlayerInterface
 {
     public class MediaError
     {

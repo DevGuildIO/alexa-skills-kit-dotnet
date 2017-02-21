@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Reflection;
 using System.Runtime.Serialization;
-using Amazon.Speech.Serialization;
+using DevGuildIO.Alexa.Speech.Serialization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Amazon.Speech.UI
+namespace DevGuildIO.Alexa.Speech.UI
 {
     public class OutputSpeechConverter : JsonConverter
     {

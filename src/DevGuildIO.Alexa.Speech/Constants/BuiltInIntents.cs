@@ -1,5 +1,5 @@
 ﻿
-namespace Amazon.Speech.Constants
+namespace DevGuildIO.Alexa.Speech.Constants
 {
     /// <summary>
     /// Built-in intents.

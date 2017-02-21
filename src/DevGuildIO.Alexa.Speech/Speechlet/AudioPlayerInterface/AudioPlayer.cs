@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Amazon.Speech.Speechlet.AudioPlayerInterface
+namespace DevGuildIO.Alexa.Speech.Speechlet.AudioPlayerInterface
 {
     /// <summary>
     /// AudioPlayer is included on all customer-initiated requests (such as requests made by voice or using a remote control), 

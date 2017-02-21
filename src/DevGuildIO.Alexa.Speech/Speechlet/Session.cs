@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Amazon.Speech.Speechlet
+namespace DevGuildIO.Alexa.Speech.Speechlet
 {
     public class Session
     {

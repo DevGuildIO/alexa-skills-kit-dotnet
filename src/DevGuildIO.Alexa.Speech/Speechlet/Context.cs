@@ -1,5 +1,5 @@
 ﻿
-namespace Amazon.Speech.Speechlet
+namespace DevGuildIO.Alexa.Speech.Speechlet
 {
     /// <summary>
     /// The context object provides your skill with information about the current state of the Alexa service 

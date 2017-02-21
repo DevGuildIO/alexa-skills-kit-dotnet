@@ -1,9 +1,9 @@
 ﻿using System.Runtime.Serialization;
-using Amazon.Speech.Speechlet.AudioPlayerInterface;
+using DevGuildIO.Alexa.Speech.Speechlet.AudioPlayerInterface;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Amazon.Speech.Speechlet.Directives
+namespace DevGuildIO.Alexa.Speech.Speechlet.Directives
 {
     /// <summary>
     /// https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/custom-audioplayer-interface-reference#play-directive

@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Amazon.Speech.UI
+namespace DevGuildIO.Alexa.Speech.UI
 {
     public abstract class OutputSpeech
     {

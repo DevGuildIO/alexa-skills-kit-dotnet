@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Amazon.Speech.Speechlet.Directives
+namespace DevGuildIO.Alexa.Speech.Speechlet.Directives
 {
     public abstract class Directive
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Amazon.Speech.Slu
+namespace DevGuildIO.Alexa.Speech.Slu
 {
     public class Intent
     {

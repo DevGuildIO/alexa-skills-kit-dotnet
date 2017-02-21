@@ -1,5 +1,5 @@
 ﻿
-namespace Amazon.Speech.Speechlet.AudioPlayerInterface
+namespace DevGuildIO.Alexa.Speech.Speechlet.AudioPlayerInterface
 {
     public class Stream
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Amazon.Speech.Speechlet
+namespace DevGuildIO.Alexa.Speech.Speechlet
 {
     public class SpeechletException : Exception
     {

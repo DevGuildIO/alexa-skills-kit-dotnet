@@ -1,8 +1,8 @@
 ﻿
-using Amazon.Speech.Speechlet;
+using DevGuildIO.Alexa.Speech.Speechlet;
 using Newtonsoft.Json;
 
-namespace Amazon.Speech.UI
+namespace DevGuildIO.Alexa.Speech.UI
 {
     public class Reprompt
     {

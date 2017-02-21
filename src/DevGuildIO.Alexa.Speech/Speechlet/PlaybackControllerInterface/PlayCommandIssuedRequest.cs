@@ -1,5 +1,5 @@
 ﻿
-namespace Amazon.Speech.Speechlet.PlaybackControllerInterface
+namespace DevGuildIO.Alexa.Speech.Speechlet.PlaybackControllerInterface
 {
     /// <summary>
     /// Sent when the user uses a “play” or “resume” button with the intent to start or resume playback.

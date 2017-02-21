@@ -1,7 +1,7 @@
-﻿using Amazon.Speech.Speechlet;
+﻿using DevGuildIO.Alexa.Speech.Speechlet;
 using Newtonsoft.Json;
 
-namespace Amazon.Speech.Json
+namespace DevGuildIO.Alexa.Speech.Json
 {
     /// <summary>
     /// https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference#request-format

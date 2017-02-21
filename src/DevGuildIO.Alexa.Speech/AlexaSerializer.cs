@@ -3,7 +3,7 @@ using Amazon.Lambda.Core;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace Amazon.Speech
+namespace DevGuildIO.Alexa.Speech
 {
     public class AlexaSerializer : ILambdaSerializer
     {

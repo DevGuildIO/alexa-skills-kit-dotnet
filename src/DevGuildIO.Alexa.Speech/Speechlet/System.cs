@@ -1,6 +1,6 @@
-﻿using Amazon.Speech.Speechlet.AudioPlayerInterface;
+﻿using DevGuildIO.Alexa.Speech.Speechlet.AudioPlayerInterface;
 
-namespace Amazon.Speech.Speechlet
+namespace DevGuildIO.Alexa.Speech.Speechlet
 {
     /// <summary>
     /// https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/alexa-skills-kit-interface-reference#system-object
