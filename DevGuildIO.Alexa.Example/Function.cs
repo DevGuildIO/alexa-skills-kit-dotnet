@@ -1,5 +1,9 @@
 using Amazon.Lambda.Core;
 using DevGuildIO.Alexa.Speech;
+using DevGuildIO.Alexa.Speech.Json;
+using DevGuildIO.Alexa.Speech.Speechlet;
+using DevGuildIO.Alexa.Speech.UI;
+using Newtonsoft.Json;
 
 // Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
 [assembly: LambdaSerializer(typeof(AlexaSerializer))]
@@ -15,9 +19,20 @@ namespace DevGuildIO.Alexa.Example
         /// <param name="input"></param>
         /// <param name="context"></param>
         /// <returns></returns>
-        public string FunctionHandler(string input, ILambdaContext context)
+        public SpeechletResponseEnvelope FunctionHandler(SpeechletRequestEnvelope input, ILambdaContext context)
         {
-            return input?.ToUpper();
+            context.Logger.Log(JsonConvert.SerializeObject(input));
+
+            return new SpeechletResponseEnvelope
+            {
+                Response = new SpeechletResponse
+                {
+                    OutputSpeech = new PlainTextOutputSpeech
+                    {
+                        Text = ((IntentRequest)input.Request).Intent.Slots["Word"].Value
+                    }
+                }
+            };
         }
     }
 }
