@@ -1,0 +1,25 @@
+﻿{
+  "intents": [
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "AMAZON.ResumeIntent"
+    },
+    {
+      "intent": "Echo",
+      "slots": [
+        {
+          "name": "Word",
+          "type": "LIST_OF_WORDS"
+        }
+      ]
+    }
+  ]
+}
