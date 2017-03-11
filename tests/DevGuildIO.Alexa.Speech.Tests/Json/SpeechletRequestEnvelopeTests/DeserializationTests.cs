@@ -8,10 +8,10 @@ using NUnit.Framework;
 namespace DevGuildIO.Alexa.Speech.Tests.Json.SpeechletRequestEnvelopeTests
 {
     [TestFixture]
-    public class SerializationTests
+    public class DeserializationTests
     {
         [Test]
-        public void Serialize_LaunchRequest_Works()
+        public void Deserialize_LaunchRequest_Works()
         {
             // arrange
             var path = Path.Combine(AppContext.BaseDirectory, "Assets\\SpeechletRequests\\SpeechletLaunchRequest.json");
@@ -26,7 +26,7 @@ namespace DevGuildIO.Alexa.Speech.Tests.Json.SpeechletRequestEnvelopeTests
         }
 
         [Test]
-        public void Serialize_IntentRequest_Works()
+        public void Deserialize_IntentRequest_Works()
         {
             // arrange
             var path = Path.Combine(AppContext.BaseDirectory, "Assets\\SpeechletRequests\\SpeechletIntentRequest.json");
@@ -41,7 +41,7 @@ namespace DevGuildIO.Alexa.Speech.Tests.Json.SpeechletRequestEnvelopeTests
         }
 
         [Test]
-        public void Serialize_EndSession_Works()
+        public void Deserialize_EndSession_Works()
         {
             // arrange
             var path = Path.Combine(AppContext.BaseDirectory, "Assets\\SpeechletRequests\\SpeechletEndSessionRequest.json");

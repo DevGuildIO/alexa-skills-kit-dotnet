@@ -1,22 +1,29 @@
 ﻿{
   "version": "1.0",
+  "sessionAttributes": {
+    "name": "test-session-name"
+  },
   "response": {
     "outputSpeech": {
       "type": "PlainText",
-      "text": "Please to meet you Erik!"
+      "text": "test output text",
+      "ssml": "test output ssml"
+    },
+    "card": {
+      "type": "Standard",
+      "title": "Test Card Title",
+      "content": "Test Card Content",
+      "text":  "Text Card Text",
+      "image": {
+        "SmallImageUrl": "test-small.jpg",
+        "LargeImageUrl": "test-large.jpg"
+      }
     },
     "reprompt": {
       "outputSpeech": {
         "type": "PlainText",
-        "text": "Please to meet you Erik!"
-      }
-    },
-    "card": {
-      "title": "Greetings!",
-      "type": "Standard",
-      "image": {
-        "SmallImageUrl": "small.jpg",
-        "LargeImageUrl": "large.jpg"
+        "text": "test reprompt text",
+        "ssml": "test reprompt ssml"
       }
     },
     "directives": [
@@ -33,8 +40,5 @@
       }
     ],
     "shouldEndSession": false
-  },
-  "sessionAttributes": {
-    "name": "Erik"
   }
 }

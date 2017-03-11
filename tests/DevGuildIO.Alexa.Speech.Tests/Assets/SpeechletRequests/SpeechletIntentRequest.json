@@ -1,26 +1,26 @@
 ﻿{
   "session": {
-    "sessionId": "SessionId.35341302-c558-4d35-93be-d918739d8f58",
+    "sessionId": "test-session-id",
     "application": {
-      "applicationId": "amzn1.ask.skill.015e9f66-363d-4369-a564-f0bc34ffbcae"
+      "applicationId": "test-application-id"
     },
     "attributes": {},
     "user": {
-      "userId": "amzn1.ask.account.AH6R34FNEPILIWQAIQBWWBQBL5PQTBPBCMAY6FD4NTU5MQXYW4FVZ3XKTAM52QIBYIYALZODM7DWLUTRIVCNVR622O723GCMVOWUQFPZOOT5R25MROOTJVQDXREMBGDCHRWZMNAJFET3SX4B6LMPZAHUIEAYB3P7527V7IKG34JKKH53CS6INPJB67A4QOYNPEX4Z6EWOYFMWQI"
+      "userId": "test-user-id"
     },
     "new": false
   },
   "request": {
     "type": "IntentRequest",
-    "requestId": "EdwRequestId.d8ffcaca-1d04-4442-afde-aaec40b9ca96",
+    "requestId": "test-request-id",
     "locale": "en-US",
     "timestamp": "2016-12-02T18:49:11Z",
     "intent": {
-      "name": "SetNameIntent",
+      "name": "TestIntentName",
       "slots": {
         "Name": {
-          "name": "Name",
-          "value": "Erik"
+          "name": "test-slot-name",
+          "value": "test-slot-value"
         }
       }
     }
